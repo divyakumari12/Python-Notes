@@ -1,0 +1,6 @@
+length=int(input("Length :"))
+breadth=int(input("Breadth :"))
+
+perimeter=2*length + 2*breadth
+
+print(perimeter)
