@@ -1,0 +1,88 @@
+********************************************************
+
+a=int(input("Enter num1: "))
+b=int(input("Enter num2: "))
+if a+b>100:
+ print("That is a Big number.")
+ 
+*********************************************************
+
+n=1234
+r=0
+while(n>0):
+ d=n%10
+ r= r*10+d
+ n=n//10
+ print(r)
+ 
+**********************************************************
+
+for x in range(1500,2700):
+     if (x%5==0) and (x%7==0):
+        print(x)
+    
+    
+************************************************************
+
+n=6
+a=0
+b=1
+sum=0
+c=1
+while(c<=n):
+    print(sum, end=" ")
+    c+=1
+    a=b
+    b=sum
+    sum = a+b
+     
+*****************************************************************
+
+Pattern: 
+1 
+2 2 
+3 3 3 
+4 4 4 4 
+
+r=4
+for i in range(r+1):
+    for j in range(i):
+        print(i,end=" ")
+    print()
+    
+********************************************************************
+
+n=7
+for i in range(n):
+    for j in range((n//2)+1):
+        if((j==0 or j==n//2) and i!=0 or i==0 and j!=0 and j!=n//2 or i==n//2):
+            print("*",end="")
+    else:
+        
+            print(" ",end="")
+    print()
+    
+**********************************************************************
+
+c=0
+while (c<3):
+ a = input("Enter Password")
+if(a =="hello hi"):
+ print("Success")
+ else:
+    c+=1
+if c=3:
+    print("access denied")
+    
+***********************************************************************
+
+x=23
+y=56
+z=71
+if x==y==z:
+     print("Equilateral")
+elif x==y or y==z or z==x:
+                 print("Isosceles")
+                     else:
+                             print("Scalene")
+ 
